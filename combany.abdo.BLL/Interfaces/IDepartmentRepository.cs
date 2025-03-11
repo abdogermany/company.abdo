@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace company.abdo.DAL.Data.Contexts
+namespace combany.abdo.BLL.Interfaces
 {
-     class CompanyDbContext : Dbcontext 
+    internal interface IDepartmentRepository 
     {
-       
+        IEnumerable<> GetALL();
     }
 }
